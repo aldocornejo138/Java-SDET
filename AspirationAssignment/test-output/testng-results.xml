@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-18T16:21:02 PDT" name="Suite" finished-at="2022-08-18T16:21:30 PDT" duration-ms="27308">
+    <groups>
+    </groups>
+    <test started-at="2022-08-18T16:21:02 PDT" name="Test" finished-at="2022-08-18T16:21:30 PDT" duration-ms="27308">
+      <class name="SeleniumAssignment.Aspiration.AspirationAssignment.AspirationTest">
+        <test-method signature="AspirationTestCase()[pri:0, instance:SeleniumAssignment.Aspiration.AspirationAssignment.AspirationTest@33a630fa]" started-at="2022-08-18T16:21:02 PDT" name="AspirationTestCase" finished-at="2022-08-18T16:21:30 PDT" duration-ms="27222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AspirationTestCase -->
+        <test-method is-config="true" signature="close(org.openqa.selenium.WebDriver)[pri:0, instance:SeleniumAssignment.Aspiration.AspirationAssignment.AspirationTest@33a630fa]" started-at="2022-08-18T16:21:30 PDT" name="close" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1660864890032" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated close.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated close.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:436)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
+at org.testng.internal.Parameters.createParameters(Parameters.java:693)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:643)
+at org.testng.TestRunner.afterRun(TestRunner.java:891)
+at org.testng.TestRunner.run(TestRunner.java:604)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- SeleniumAssignment.Aspiration.AspirationAssignment.AspirationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
